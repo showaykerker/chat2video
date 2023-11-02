@@ -1,22 +1,33 @@
-[
-    {
-        "img": [
-            "img1.jpg"
-        ],
-        "duration": 2
-    },
-    {
-        "img": [
-            "img1.jpg",
-            "img2.jpg"
-        ],
-        "duration": 2
-    },
-    {
-        "img": [
-            "img2.jpg",
-            "img3.jpg"
-        ],
-        "duration": 4
+{
+    "video": [
+        {
+            "img": [
+                "img1.jpg"
+            ],
+            "duration": 2,
+            "sound": "dc"
+        },
+        {
+            "img": [
+                "img1.jpg",
+                "img2.jpg"
+            ],
+            "duration": 2,
+            "sound": "dc"
+        },
+        {
+            "img": [
+                "img2.jpg",
+                "img3.jpg"
+            ],
+            "duration": 4,
+            "sound": "dc"
+        }
+    ],
+    "sounds": {
+        "dc": {
+            "title": "discord-notification.mp3",
+            "subclip": [0.0, 0.5]
+        }
     }
-]
+}

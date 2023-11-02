@@ -18,7 +18,7 @@ from moviepy.editor import concatenate_videoclips
 from moviepy.video.fx.all import margin
 
 
-def get_config() -> List[dict]:
+def get_config() -> dict:
     if os.path.isfile("config.json"):
         use_config = "config.json"
     else:
@@ -38,7 +38,7 @@ def get_audio_clip() -> AudioFileClip:
     return AudioFileClip("discord-notification.mp3").subclip(0.0, 0.5)
 
 
-def get_max_img_height(config: List[str]) -> float:
+def get_max_img_height(config: dict) -> float:
     max_height = -1
     for frame in config:
         height = sum([Image.open(os.path.join("images", img)).height
@@ -52,7 +52,7 @@ def get_max_img_height(config: List[str]) -> float:
 
 
 def build_video_clips(
-        config: List[dict],
+        config: dict,
         max_height: float) -> Tuple[VideoClip, List[float]]:
     clips = []
     timestamps = [0.0]
