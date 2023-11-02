@@ -1,0 +1,22 @@
+[
+    {
+        "img": [
+            "img1.jpg"
+        ],
+        "duration": 2
+    },
+    {
+        "img": [
+            "img1.jpg",
+            "img2.jpg"
+        ],
+        "duration": 2
+    },
+    {
+        "img": [
+            "img2.jpg",
+            "img3.jpg"
+        ],
+        "duration": 4
+    }
+]
