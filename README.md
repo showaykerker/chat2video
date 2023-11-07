@@ -18,9 +18,9 @@ $ source venv/bin/activate
 ```
 
 ## TODO
-[] Complete README.md
-[] Support for multiple sound effect
-[] Add demo video
-[] Release binary version
-[] More configuration!
+- [] Complete README.md
+- [] Support for multiple sound effect
+- [] Add demo video
+- [] Release binary version
+- [] More configuration!
 
